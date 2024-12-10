@@ -83,7 +83,18 @@
 // console.log(b4);
 
 // console.log(-------------------------ans-12--------------------------)
+// const items = ['apple', 'banana', 'orange', 'apple', 'banana', 'apple'];
 
+// let obj = {}
+// items.forEach((el) => {
+//     if(obj[el] == undefined){
+//         obj[el] = 1;
+//     }
+//     else{
+//         obj[el] = obj[el] + 1;
+//     }
+// })
+// console.log(obj);
 
 // console.log(-------------------------ans-13--------------------------)
 // function doubleNumber(num) {
@@ -96,7 +107,16 @@
 // console.log(result2);
 
 // console.log(-------------------------ans-14--------------------------)
+// const cart = [
+//     { item: 'apple', price: 2, quantity: 3 },
+//     { item: 'banana', price: 1, quantity: 5 },
+//     { item: 'orange', price: 3, quantity: 2 }
+// ];
 
+// let result = cart.map((el) => {
+//     return {...el, totalPrice : el.price * el.quantity}
+// })
+// console.log(result);
 
 // console.log(-------------------------ans-15--------------------------)
 // const items = [
@@ -106,7 +126,7 @@
 //     ];
 
 // let result = items.filter(item => {
-//     if(item.price > 5 || item.quantity < 3){
+//     if(item.price < 5 || item.quantity > 3){
 //         return true;
 //     }
 //     return false;
